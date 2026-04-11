@@ -87,7 +87,7 @@ export default async function handler(req, res) {
     // EMAIL NOTIFICATION (Resend)
     // ═══════════════════════════════════════════
     const resendKey = process.env.RESEND_API_KEY;
-    const notifyEmail = process.env.NOTIFY_EMAIL || "kinkypeopletribute@gmail.com";
+    const notifyEmail = process.env.NOTIFY_EMAIL || "kinkypeopletribute@gmail.com; info@kinkypeople.it";
 
     if (resendKey) {
       const htmlBody = `
