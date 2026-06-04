@@ -36,8 +36,8 @@ function genQuoteId() {
 }
 
 const T = {
-  it: { subtitle:"Calcola il tuo preventivo", format:"FORMAT", eventDetails:"DETTAGLI EVENTO", eventName:"NOME EVENTO / VENUE", eventPhoto:"FOTO EVENTO *", uploadText:"Carica foto evento o location", country:"STATO", province:"PROVINCIA", city:"CITTA'", eventDate:"DATA EVENTO", service:"SERVICE AUDIO / LUCI", serviceBand:"SERVICE BAND", serviceBandDesc:"Piccolo service incluso", serviceOwn:"SERVICE PROPRIO", serviceOwnDesc:"Organizzatore fornisce service", serviceNote:"Service band solo entro 150 km.", yourData:"I TUOI DATI", firstName:"NOME", lastName:"COGNOME", organization:"ORGANIZZAZIONE", phone:"TELEFONO", extras:"ALTRI SERVIZI", videoName:"Video Dedicato", videoDesc:"Video promo personalizzato", djName:"DJ Set Prima e Dopo", djDesc:"Selezione reggae pre/post live", origName:"Brani Inediti", origDesc:"Originali Kinky People in scaletta", weddingName:"Wedding", weddingDesc:"Live show per matrimoni", weddingLink:"Info WhatsApp →", generate:"GENERA PREVENTIVO PDF", generating:"GENERAZIONE...", generated:"✓ GENERATO!", incomplete:"COMPILA I CAMPI RICHIESTI", printLabel:"Versione stampabile (sfondo bianco)", waText:"Vuoi info?", waHi:"Contattaci su WhatsApp", select:"Seleziona...", search:"Cerca...", typeCity:"Scrivi citta...", free:"GRATIS", local:"LOCALE", medium:"MEDIA", far:"LUNGA", island:"ISOLA", abroad:"ESTERO", localMsg:"Nessun costo aggiuntivo. Service band disponibile.", mediumMsg:"Trasferta + furgone + autostrada + vitto/alloggio.", farMsg:"Trasferta maggiorata + furgone + autostrada + vitto/alloggio.", islandMsg:"Voli A/R + navetta aeroporto + vitto/alloggio (a carico org.).", abroadMsg:"Voli A/R + navetta aeroporto + vitto/alloggio (a carico org.)." },
-  en: { subtitle:"Get your quote", format:"FORMAT", eventDetails:"EVENT DETAILS", eventName:"EVENT NAME / VENUE", eventPhoto:"EVENT PHOTO *", uploadText:"Upload event or venue photo", country:"COUNTRY", province:"PROVINCE", city:"CITY", eventDate:"EVENT DATE", service:"SOUND / LIGHTING", serviceBand:"BAND PA", serviceBandDesc:"Small PA included", serviceOwn:"OWN SERVICE", serviceOwnDesc:"Organizer provides PA", serviceNote:"Band PA only within 150 km.", yourData:"YOUR DETAILS", firstName:"FIRST NAME", lastName:"LAST NAME", organization:"ORGANIZATION", phone:"PHONE", extras:"EXTRAS", videoName:"Dedicated Video", videoDesc:"Custom promo video", djName:"DJ Set Before & After", djDesc:"Reggae selection pre/post show", origName:"Original Songs", origDesc:"Kinky People originals in setlist", weddingName:"Wedding", weddingDesc:"Live show for weddings", weddingLink:"Info WhatsApp →", generate:"GENERATE PDF QUOTE", generating:"GENERATING...", generated:"✓ GENERATED!", incomplete:"FILL REQUIRED FIELDS", printLabel:"Printable version (white background)", waText:"Need info?", waHi:"Contact us on WhatsApp", select:"Select...", search:"Search...", typeCity:"Type city...", free:"FREE", local:"LOCAL", medium:"MEDIUM", far:"FAR", island:"ISLAND", abroad:"ABROAD", localMsg:"No extra costs. Band PA available.", mediumMsg:"Travel + van + tolls + board & lodging.", farMsg:"Extended travel + van + tolls + board & lodging.", islandMsg:"Flights R/T + airport shuttle + board & lodging (org. charge).", abroadMsg:"Flights R/T + airport shuttle + board & lodging (org. charge)." }
+  it: { subtitle:"Calcola il tuo preventivo", format:"FORMAT", eventDetails:"DETTAGLI EVENTO", eventName:"NOME EVENTO / VENUE", eventPhoto:"FOTO EVENTO *", uploadText:"Carica foto evento o location", country:"STATO", province:"PROVINCIA", city:"CITTA'", eventDate:"DATA EVENTO", service:"SERVICE AUDIO / LUCI", serviceBand:"SERVICE BAND", serviceBandDesc:"Piccolo service incluso", serviceOwn:"SERVICE PROPRIO", serviceOwnDesc:"Organizzatore fornisce service", serviceNote:"Service band solo entro 150 km.", yourData:"I TUOI DATI", firstName:"NOME", lastName:"COGNOME", organization:"ORGANIZZAZIONE", phone:"TELEFONO", lineup:"FORMAZIONE COMPLETA", choristersName:"+2 Coriste Femminili", choristersDesc:"Sezione cori extra al live (in cachet)", hornsName:"+2 Fiati (Trombone + Sax)", hornsDesc:"Sezione fiati extra al live (in cachet)", extras:"ALTRI SERVIZI", videoName:"Video Dedicato", videoDesc:"Video promo personalizzato", djName:"DJ Set Prima e Dopo", djDesc:"Selezione reggae pre/post live", origName:"Brani Inediti", origDesc:"Originali Kinky People in scaletta", weddingName:"Wedding", weddingDesc:"Live show per matrimoni", weddingLink:"Info WhatsApp →", generate:"GENERA PREVENTIVO PDF", generating:"GENERAZIONE...", generated:"✓ GENERATO!", incomplete:"COMPILA I CAMPI RICHIESTI", printLabel:"Versione stampabile (sfondo bianco)", waText:"Vuoi info?", waHi:"Contattaci su WhatsApp", select:"Seleziona...", search:"Cerca...", typeCity:"Scrivi citta...", free:"GRATIS", local:"LOCALE", medium:"MEDIA", far:"LUNGA", island:"ISOLA", abroad:"ESTERO", localMsg:"Nessun costo aggiuntivo. Service band disponibile.", mediumMsg:"Trasferta + furgone + autostrada + vitto/alloggio.", farMsg:"Trasferta maggiorata + furgone + autostrada + vitto/alloggio.", islandMsg:"Voli A/R + navetta aeroporto + vitto/alloggio (a carico org.).", abroadMsg:"Voli A/R + navetta aeroporto + vitto/alloggio (a carico org.)." },
+  en: { subtitle:"Get your quote", format:"FORMAT", eventDetails:"EVENT DETAILS", eventName:"EVENT NAME / VENUE", eventPhoto:"EVENT PHOTO *", uploadText:"Upload event or venue photo", country:"COUNTRY", province:"PROVINCE", city:"CITY", eventDate:"EVENT DATE", service:"SOUND / LIGHTING", serviceBand:"BAND PA", serviceBandDesc:"Small PA included", serviceOwn:"OWN SERVICE", serviceOwnDesc:"Organizer provides PA", serviceNote:"Band PA only within 150 km.", yourData:"YOUR DETAILS", firstName:"FIRST NAME", lastName:"LAST NAME", organization:"ORGANIZATION", phone:"PHONE", lineup:"FULL LINEUP", choristersName:"+2 Female Choristers", choristersDesc:"Extra chorus section (in show fee)", hornsName:"+2 Horns (Trombone + Sax)", hornsDesc:"Extra horn section (in show fee)", extras:"EXTRAS", videoName:"Dedicated Video", videoDesc:"Custom promo video", djName:"DJ Set Before & After", djDesc:"Reggae selection pre/post show", origName:"Original Songs", origDesc:"Kinky People originals in setlist", weddingName:"Wedding", weddingDesc:"Live show for weddings", weddingLink:"Info WhatsApp →", generate:"GENERATE PDF QUOTE", generating:"GENERATING...", generated:"✓ GENERATED!", incomplete:"FILL REQUIRED FIELDS", printLabel:"Printable version (white background)", waText:"Need info?", waHi:"Contact us on WhatsApp", select:"Select...", search:"Search...", typeCity:"Type city...", free:"FREE", local:"LOCAL", medium:"MEDIUM", far:"FAR", island:"ISLAND", abroad:"ABROAD", localMsg:"No extra costs. Band PA available.", mediumMsg:"Travel + van + tolls + board & lodging.", farMsg:"Extended travel + van + tolls + board & lodging.", islandMsg:"Flights R/T + airport shuttle + board & lodging (org. charge).", abroadMsg:"Flights R/T + airport shuttle + board & lodging (org. charge)." }
 };
 
 function hav(a,b,c,d) { const R=6371,x=Math.PI/180,dL=(c-a)*x,dG=(d-b)*x,s=Math.sin(dL/2)**2+Math.cos(a*x)*Math.cos(c*x)*Math.sin(dG/2)**2; return R*2*Math.atan2(Math.sqrt(s),Math.sqrt(1-s)); }
@@ -315,6 +315,7 @@ export default function App() {
   const [nome, setNome] = useState(""); const [cogn, setCogn] = useState("");
   const [org, setOrg] = useState(""); const [email, setEmail] = useState(""); const [tel, setTel] = useState("");
   const [vid, setVid] = useState(false); const [dj, setDj] = useState(false); const [ined, setIned] = useState(false);
+  const [coriste, setCoriste] = useState(false); const [fiati, setFiati] = useState(false);
   const [printMode, setPrintMode] = useState(false);
   const [btn, setBtn] = useState("idle"); // idle|loading|done|error
   const [pdfOk, setPdfOk] = useState(false);
@@ -389,6 +390,7 @@ export default function App() {
       distance: dist + " km",
       locationType: locType,
       service: svc === "band" ? "Service Band" : "Service Proprio",
+      lineup: [coriste && "+2 Coriste", fiati && "+2 Fiati (trombone+sax)"].filter(Boolean).join(", ") || "Standard 7 elementi",
       extras: [vid && "Video Dedicato", dj && "DJ Set", ined && "Brani Inediti"].filter(Boolean).join(", ") || "Nessuno",
       customer: { name: (nome + " " + cogn).trim(), org: org || "", email: email || "", phone: tel || "" },
       total: totStr,
@@ -420,7 +422,11 @@ export default function App() {
         let tras=0,fur=fd*150,aut=needTravel?100:0,pull=needFlights?200:0;
         if(!needFlights&&needTravel)tras=dist>500?400:200;
         const vC=vid?100:0,dC=dj?250:0;
-        const imp=sp+tras+fur+aut+pull+vC+dC,iva=Math.round(imp*IVA*100)/100,tot=imp+iva;
+        /* Formazione completa: +150 EUR a opzione, incluso silenziosamente nel cachet
+           (la voce non appare nei items del PDF, ma il prezzo si vede nel "Spettacolo") */
+        const lineupExtra = (coriste?150:0) + (fiati?150:0);
+        const spDisplay = sp + lineupExtra; // mostrato come "Spettacolo" in PDF
+        const imp=spDisplay+tras+fur+aut+pull+vC+dC,iva=Math.round(imp*IVA*100)/100,tot=imp+iva;
         const fl=fmt==="jamrock"?"Jamrock Live Show":"Bob Marley Tribute";
         sc("bg");doc.rect(0,0,W,H,"F");sc("gd");doc.rect(0,0,W,4,"F");
         try{doc.addImage(LOGO,"PNG",W-42,7,18,18);}catch(e){}
@@ -436,8 +442,8 @@ export default function App() {
         if(photoPrev){try{doc.addImage(photoPrev,"JPEG",25,51,50,35);sc("gd");doc.rect(25,51,50,.5,"F");bY=90;}catch(e){bY=51;}}
         const bH=38;sc("cd");doc.roundedRect(25,bY,W-50,bH,2,2,"F");sc("gd");doc.rect(25,bY,1,bH,"F");
         const ds2=evDate?new Date(evDate).toLocaleDateString("it-IT"):"TBD",ls=citta+(provCode?" ("+provCode+")":"");
-        [["EVENTO",venue?venue+" - Kinky People - "+fl:"Kinky People - "+fl],["DATA",ds2],["LOCATION",ls],["DURATA","1x90min / 2x45min"],["BAND","Live - 7 elementi"]].forEach(([k,v],i)=>{const dy=bY+7+i*6.2;doc.setFont("helvetica","bold");doc.setFontSize(6.5);tc("gd");doc.text(k,32,dy);doc.setFont("helvetica","normal");doc.setFontSize(8.5);tc("wh");doc.text(v,58,dy);});
-        const items=[];items.push([svc==="band"?"Spettacolo "+fl+" (service incl.)":"Spettacolo "+fl,fE(sp)]);
+        [["EVENTO",venue?venue+" - Kinky People - "+fl:"Kinky People - "+fl],["DATA",ds2],["LOCATION",ls],["DURATA","1x90min / 2x45min"],["BAND","Live - "+(7+(coriste?2:0)+(fiati?2:0))+" elementi"]].forEach(([k,v],i)=>{const dy=bY+7+i*6.2;doc.setFont("helvetica","bold");doc.setFontSize(6.5);tc("gd");doc.text(k,32,dy);doc.setFont("helvetica","normal");doc.setFontSize(8.5);tc("wh");doc.text(v,58,dy);});
+        const items=[];items.push([svc==="band"?"Spettacolo "+fl+" (service incl.)":"Spettacolo "+fl,fE(spDisplay)]);
         if(tras>0)items.push(["Trasferta (PE-"+citta+" ~"+dist+"km)",fE(tras)]);
         if(pull>0)items.push(["Transfer pullman",fE(pull)]);
         if(fur>0)items.push(["Furgone ("+fd+"gg x 150EUR)",fE(fur)]);
@@ -570,6 +576,11 @@ export default function App() {
         </div>
         </div>
         <div>
+
+        <div style={{marginBottom:22}}><Section>{t.lineup}</Section>
+          <Chk on={coriste} toggle={()=>setCoriste(v=>!v)} nm={t.choristersName} ds={t.choristersDesc} pr="+150€"/>
+          <Chk on={fiati} toggle={()=>setFiati(v=>!v)} nm={t.hornsName} ds={t.hornsDesc} pr="+150€"/>
+        </div>
 
         <div style={{marginBottom:22}}><Section>{t.yourData}</Section>
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10,marginBottom:14}}><div><Label>{t.firstName}</Label><input value={nome} onChange={e=>setNome(e.target.value)} placeholder="Mario" style={inpStyle}/></div><div><Label>{t.lastName}</Label><input value={cogn} onChange={e=>setCogn(e.target.value)} placeholder="Rossi" style={inpStyle}/></div></div>
